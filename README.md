@@ -6,6 +6,7 @@ The app provides users a list of 5 interesting and interactive tasks to complete
 
 I have closely followed the technical requirements, as my skills are best oriented for that. I look forward to the club's creative heads to supply ideas I can bring to life through code. 
 
+https://github.com/adikul358/openai-todo/assets/38763258/afbcace6-a51c-4c6b-b88e-924a87217e60
 
 ## Task Generation
 
