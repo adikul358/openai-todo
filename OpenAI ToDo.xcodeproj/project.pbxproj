@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01B417322BAA156F00E19079 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B417312BAA156F00E19079 /* TaskView.swift */; };
+		01B417362BAA520D00E19079 /* AnimateText in Frameworks */ = {isa = PBXBuildFile; productRef = 01B417352BAA520D00E19079 /* AnimateText */; };
+		01B417382BAA55D400E19079 /* TypeWriterText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B417372BAA55D400E19079 /* TypeWriterText.swift */; };
+		01B4173A2BAA87E600E19079 /* genParas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B417392BAA87E600E19079 /* genParas.swift */; };
+		01B417412BAB1F6400E19079 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B417402BAB1F6400E19079 /* Task.swift */; };
+		01B417452BAB1FA200E19079 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B417442BAB1FA200E19079 /* AboutView.swift */; };
+		01B417472BAB204300E19079 /* TaskListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B417462BAB204300E19079 /* TaskListItem.swift */; };
+		01B417492BAB214C00E19079 /* TasksManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B417482BAB214C00E19079 /* TasksManager.swift */; };
+		01B4174B2BAB290400E19079 /* ParaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B4174A2BAB290400E19079 /* ParaManager.swift */; };
+		48A2F5B32BA61F930064BBA9 /* OpenAI_ToDoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A2F5B22BA61F930064BBA9 /* OpenAI_ToDoApp.swift */; };
+		48A2F5B52BA61F930064BBA9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A2F5B42BA61F930064BBA9 /* HomeView.swift */; };
+		48A2F5B72BA61F980064BBA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48A2F5B62BA61F980064BBA9 /* Assets.xcassets */; };
+		48A2F5BA2BA61F980064BBA9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48A2F5B92BA61F980064BBA9 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01B417312BAA156F00E19079 /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		01B417372BAA55D400E19079 /* TypeWriterText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeWriterText.swift; sourceTree = "<group>"; };
+		01B417392BAA87E600E19079 /* genParas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = genParas.swift; sourceTree = "<group>"; };
+		01B417402BAB1F6400E19079 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		01B417442BAB1FA200E19079 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		01B417462BAB204300E19079 /* TaskListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListItem.swift; sourceTree = "<group>"; };
+		01B417482BAB214C00E19079 /* TasksManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksManager.swift; sourceTree = "<group>"; };
+		01B4174A2BAB290400E19079 /* ParaManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParaManager.swift; sourceTree = "<group>"; };
+		4891FE592BA632B8006CDF1E /* README.md */ = {isa = PBXFileReference; explicitFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		48A2F5AF2BA61F930064BBA9 /* OpenAI ToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenAI ToDo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48A2F5B22BA61F930064BBA9 /* OpenAI_ToDoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAI_ToDoApp.swift; sourceTree = "<group>"; };
+		48A2F5B42BA61F930064BBA9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		48A2F5B62BA61F980064BBA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48A2F5B92BA61F980064BBA9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48A2F5AC2BA61F930064BBA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01B417362BAA520D00E19079 /* AnimateText in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01B4173D2BAB185A00E19079 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				01B417392BAA87E600E19079 /* genParas.swift */,
+				01B417402BAB1F6400E19079 /* Task.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		01B4173E2BAB186000E19079 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				01B417482BAB214C00E19079 /* TasksManager.swift */,
+				01B4174A2BAB290400E19079 /* ParaManager.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		01B4173F2BAB186B00E19079 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				48A2F5B42BA61F930064BBA9 /* HomeView.swift */,
+				01B417442BAB1FA200E19079 /* AboutView.swift */,
+				01B417312BAA156F00E19079 /* TaskView.swift */,
+				01B417462BAB204300E19079 /* TaskListItem.swift */,
+				01B417372BAA55D400E19079 /* TypeWriterText.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		48A2F5A62BA61F930064BBA9 = {
+			isa = PBXGroup;
+			children = (
+				4891FE592BA632B8006CDF1E /* README.md */,
+				48A2F5B12BA61F930064BBA9 /* OpenAI ToDo */,
+				48A2F5B02BA61F930064BBA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48A2F5B02BA61F930064BBA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48A2F5AF2BA61F930064BBA9 /* OpenAI ToDo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48A2F5B12BA61F930064BBA9 /* OpenAI ToDo */ = {
+			isa = PBXGroup;
+			children = (
+				01B4173F2BAB186B00E19079 /* Views */,
+				01B4173E2BAB186000E19079 /* View Models */,
+				01B4173D2BAB185A00E19079 /* Models */,
+				48A2F5B22BA61F930064BBA9 /* OpenAI_ToDoApp.swift */,
+				48A2F5B62BA61F980064BBA9 /* Assets.xcassets */,
+				48A2F5B82BA61F980064BBA9 /* Preview Content */,
+			);
+			path = "OpenAI ToDo";
+			sourceTree = "<group>";
+		};
+		48A2F5B82BA61F980064BBA9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				48A2F5B92BA61F980064BBA9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48A2F5AE2BA61F930064BBA9 /* OpenAI ToDo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48A2F5BD2BA61F980064BBA9 /* Build configuration list for PBXNativeTarget "OpenAI ToDo" */;
+			buildPhases = (
+				48A2F5AB2BA61F930064BBA9 /* Sources */,
+				48A2F5AC2BA61F930064BBA9 /* Frameworks */,
+				48A2F5AD2BA61F930064BBA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenAI ToDo";
+			packageProductDependencies = (
+				01B417352BAA520D00E19079 /* AnimateText */,
+			);
+			productName = "OpenAI To-Do";
+			productReference = 48A2F5AF2BA61F930064BBA9 /* OpenAI ToDo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48A2F5A72BA61F930064BBA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					48A2F5AE2BA61F930064BBA9 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 48A2F5AA2BA61F930064BBA9 /* Build configuration list for PBXProject "OpenAI ToDo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48A2F5A62BA61F930064BBA9;
+			packageReferences = (
+				01B417342BAA520D00E19079 /* XCRemoteSwiftPackageReference "AnimateText" */,
+			);
+			productRefGroup = 48A2F5B02BA61F930064BBA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48A2F5AE2BA61F930064BBA9 /* OpenAI ToDo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48A2F5AD2BA61F930064BBA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48A2F5BA2BA61F980064BBA9 /* Preview Assets.xcassets in Resources */,
+				48A2F5B72BA61F980064BBA9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48A2F5AB2BA61F930064BBA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01B417492BAB214C00E19079 /* TasksManager.swift in Sources */,
+				01B417322BAA156F00E19079 /* TaskView.swift in Sources */,
+				01B417382BAA55D400E19079 /* TypeWriterText.swift in Sources */,
+				48A2F5B52BA61F930064BBA9 /* HomeView.swift in Sources */,
+				01B417412BAB1F6400E19079 /* Task.swift in Sources */,
+				01B4173A2BAA87E600E19079 /* genParas.swift in Sources */,
+				01B417452BAB1FA200E19079 /* AboutView.swift in Sources */,
+				01B417472BAB204300E19079 /* TaskListItem.swift in Sources */,
+				48A2F5B32BA61F930064BBA9 /* OpenAI_ToDoApp.swift in Sources */,
+				01B4174B2BAB290400E19079 /* ParaManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		48A2F5BB2BA61F980064BBA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		48A2F5BC2BA61F980064BBA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48A2F5BE2BA61F980064BBA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OpenAI ToDo/Preview Content\"";
+				DEVELOPMENT_TEAM = 7MFU6G9D54;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "adikul358.OpenAI-To-Do";
+				PRODUCT_NAME = "OpenAI ToDo";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48A2F5BF2BA61F980064BBA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OpenAI ToDo/Preview Content\"";
+				DEVELOPMENT_TEAM = 7MFU6G9D54;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "adikul358.OpenAI-To-Do";
+				PRODUCT_NAME = "OpenAI ToDo";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48A2F5AA2BA61F930064BBA9 /* Build configuration list for PBXProject "OpenAI ToDo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48A2F5BB2BA61F980064BBA9 /* Debug */,
+				48A2F5BC2BA61F980064BBA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48A2F5BD2BA61F980064BBA9 /* Build configuration list for PBXNativeTarget "OpenAI ToDo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48A2F5BE2BA61F980064BBA9 /* Debug */,
+				48A2F5BF2BA61F980064BBA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		01B417342BAA520D00E19079 /* XCRemoteSwiftPackageReference "AnimateText" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jasudev/AnimateText.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		01B417352BAA520D00E19079 /* AnimateText */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 01B417342BAA520D00E19079 /* XCRemoteSwiftPackageReference "AnimateText" */;
+			productName = AnimateText;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 48A2F5A72BA61F930064BBA9 /* Project object */;
+}
